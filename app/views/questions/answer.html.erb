@@ -1,0 +1,12 @@
+<h2>Answers</h2>
+<p> Question to the coach : <%= @question %> </p>
+<p> Answer from the coach: <% if @question == "I am going to work" %>
+  <%= @answers[0] %>
+<% elsif @question.last == "?" %>
+  <%= @answers[1] %>
+<% else %>
+  <%= @answers[2] %>
+<% end %> </p>
+
+
+<%= link_to "Ask a new question", ask_path %>

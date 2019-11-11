@@ -1,0 +1,15 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+form {
+  color: blue;
+}
+
+#askbtn {
+  border-radius: 0 3px 3px 0;
+}
+
+#question {
+  border-radius: 3px 0 0 3px;
+  border: 1px ridge rgba(0, 0, 0, 0.2)
+}
